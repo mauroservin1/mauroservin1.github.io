@@ -571,7 +571,7 @@ bottom: 4px;
 .contacto button:hover .overlay{
     width: 100%;
 }
-.contacto.col img{
+.contacto .col img{
     width: 100%;
 }
 .contacto .col .info{
