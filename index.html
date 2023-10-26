@@ -16,15 +16,15 @@
             </div>
                 <nav id="nav">
                     <ul>
-                        <li><a href="#Inicio">INICIO</a></li>
-                        <li><a href="#sobremi">SOBRE MI</a></li>
-                        <li><a href="#skills">SKILLS</a></li>
-                        <li><a href="#curriculum">CURRICULUM</a></li>
-                        <li><a href="#portfolio">PORTFOLIO</a></li>
-                        <li><a href="#contacto">CONTACTO</a></li>
+                        <li><a href="#Inicio" onclick="seleccionar()">INICIO</a></li>
+                        <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                        <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                        <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                        <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                        <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
                     </ul>
                 </nav>
-                <div class="nav-responsive">
+                <div class="nav-responsive" onclick="mostrarOcultarMenu()">
                     <i class="fa-solid fa-bars"></i>
                 </div>
         </header>
@@ -139,7 +139,7 @@
                     <div class="skill">
                         <span>Javascript</span>
                         <div class="barra-skill">
-                            <div class="progreso javascript">
+                            <div class="progreso">
                                 <span>75%</span>
                             </div>
                         </div>
@@ -147,7 +147,7 @@
                     <div class="skill">
                         <span>HTML & CSS</span>
                         <div class="barra-skill">
-                            <div class="progreso htmlcss">
+                            <div class="progreso">
                                 <span>85%</span>
                             </div>
                         </div>
@@ -155,7 +155,7 @@
                     <div class="skill">
                         <span>Bootstrap</span>
                         <div class="barra-skill">
-                            <div class="progreso bootstrap">
+                            <div class="progreso">
                                 <span>75%</span>
                             </div>
                         </div>
@@ -163,7 +163,7 @@
                     <div class="skill">
                         <span>React JS</span>
                         <div class="barra-skill">
-                            <div class="progreso ReactJS">
+                            <div class="progreso">
                                 <span>80%</span>
                             </div>
                         </div>
@@ -171,7 +171,7 @@
                     <div class="skill">
                         <span>SQL</span>
                         <div class="barra-skill">
-                            <div class="progreso SQL">
+                            <div class="progreso">
                                 <span>75%</span>
                             </div>
                         </div>
@@ -183,7 +183,7 @@
                     <div class="skill">
                         <span>Predisposición</span>
                         <div class="barra-skill">
-                            <div class="progreso Predisposición">
+                            <div class="progreso">
                                 <span>80%</span>
                             </div>
                         </div>
@@ -191,7 +191,7 @@
                     <div class="skill">
                         <span>Trabajo en equipo</span>
                         <div class="barra-skill">
-                            <div class="progreso Trabajo">
+                            <div class="progreso">
                                 <span>85%</span>
                             </div>
                         </div>
@@ -199,7 +199,7 @@
                     <div class="skill">
                         <span>Adaptabilidad</span>
                         <div class="barra-skill">
-                            <div class="progreso Adaptabilidad">
+                            <div class="progreso">
                                 <span>85%</span>
                             </div>
                         </div>
@@ -207,7 +207,7 @@
                     <div class="skill">
                         <span>Capacidad de escucha</span>
                         <div class="barra-skill">
-                            <div class="progreso Capacidad">
+                            <div class="progreso">
                                 <span>80%</span>
                             </div>
                         </div>
@@ -215,7 +215,7 @@
                     <div class="skill">
                         <span>Orientación a Resultados</span>
                         <div class="barra-skill">
-                            <div class="progreso Orientación">
+                            <div class="progreso">
                                 <span>83%</span>
                             </div>
                         </div>
@@ -402,3 +402,18 @@
         </div>
     </div>
 </section>
+<!-- footer -->
+<footer>
+    <a href="#inicio" class="arriba">
+    <i class="fa-solid fa-angles-up"></i>
+</a>
+    <div class="redes">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-skype"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
